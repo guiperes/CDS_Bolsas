@@ -3,3 +3,60 @@ body {
     font-family: "Montserrat", Sans-serif;
     color: #959595;
 }
+
+input {
+    width: 25%;
+    padding: 6px 14px;
+    margin: 8px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #959595;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bold;
+    color: #959595;
+}
+
+input[type=submit] {
+    width: 10%;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #959595;
+    border-radius: 4px;
+
+}
+
+input[type=text]:focus {
+    border: none;
+}
+
+select {
+    width: 25%;
+    padding: 6px 14px;
+    margin: 8px 0;
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("../imagens/downarrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: transparent;
+
+    border: 1px solid #959595;
+    border-radius: 5px;
+
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bold;
+    color: #959595;
+}
+
+option {
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bold;
+    color: #959595;
+    background: black;
+    border: 1px #959595;
+}
+

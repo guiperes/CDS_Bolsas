@@ -20,13 +20,13 @@
         <input type="number" name="" maxlength="2" required><br>
         <label name="">Rede em que trabalha </label>
         <select name="" required>
-            <option name="" disable selected></option>
+            <option value="" data-default disabled selected></option>
             <option> Rede estadual</option>
             <option> Rede municipal</option>
         </select><br>
         <label name="">Segmento de atuação </label>
         <select name="" required>
-            <option name="" disable selected></option>
+            <option value="" data-default disabled selected></option>
             <option name="">Ensino infantil</option>
             <option name="">Anos iniciais</option>
             <option name="">Anos finais</option>
@@ -37,9 +37,10 @@
         <input name="" type="text" required><br>
         <label name="">Nome do(a) diretor(a) da escola </label>
         <input name="" type="text" required><br>
+        <!-- os dois inputs acima vão precisar ser validados com a DB. Se não constarem na DB, o form não deve aceitar -->
         <label name="">Seu cargo </label>
         <input type="text" name="" required><br><br>
-        <input name="" type="submit">
+        <input name="submit" type="submit">
         
 
     </form>
